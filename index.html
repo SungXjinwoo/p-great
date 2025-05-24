@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NICKFX - Advanced Trading Education</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <div class="logo">
+                <span class="logo-icon">N</span>
+                <span class="logo-text">NICKFX</span>
+            </div>
+            
+            <nav class="nav-menu">
+                <ul>
+                    <li class="active"><a href="#"><i class="fas fa-home"></i> Dashboard</a></li>
+                    <li><a href="#"><i class="fas fa-chart-line"></i> Market Data</a></li>
+                    <li><a href="#courses"><i class="fas fa-book"></i> Courses</a></li>
+                    <li><a href="#"><i class="fas fa-trophy"></i> Strategies</a></li>
+                    <li><a href="#"><i class="fas fa-robot"></i> AI Signals</a></li>
+                    <li><a href="https://www.youtube.com/live/kPyJI4NXCVU?si=9C9QwqclA0YoKMA7"><i class="fas fa-user-graduate"></i> Community</a></li>
+                    <li><a href="#"><i class="fas fa-cog"></i> Settings</a></li>
+                </ul>
+            </nav>
+            
+            <div class="trading-info">
+                <h3>Market Pulse</h3>
+                <div class="market-data">
+                    <div class="data-item">
+                        <span class="data-label">EUR/USD</span>
+                        <span class="data-value up">1.0854 <i class="fas fa-caret-up"></i></span>
+                    </div>
+                    <div class="data-item">
+                        <span class="data-label">GOLD</span>
+                        <span class="data-value down">2,034.50 <i class="fas fa-caret-down"></i></span>
+                    </div>
+                    <div class="data-item">
+                        <span class="data-label">NASDAQ</span>
+                        <span class="data-value up">15,450.67 <i class="fas fa-caret-up"></i></span>
+                    </div>
+                    <div class="data-item">
+                        <span class="data-label">BTC/USD</span>
+                        <span class="data-value up">$42,380.90 <i class="fas fa-caret-up"></i></span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="theme-toggle">
+                <span>Dark Mode</span>
+                <label class="switch">
+                    <input type="checkbox" id="theme-switch">
+                    <span class="slider round"></span>
+                </label>
+            </div>
+        </div>
+        
+        <!-- Main Content -->
+        <div class="main-content">
+            <header class="header">
+                <div class="header-left">
+                    <h1>Welcome to NICKFX</h1>
+                    <p>Where trading meets quantum intelligence</p>
+                </div>
+                <div class="header-right">
+                    <div class="user-profile">
+                        <img src="images/WhatsApp Image 2025-05-23 at 15.44.04_8a887be8.jpg" alt="User">
+                        <span>TraderNick</span>
+                    </div>
+                </div>
+            </header>
+            
+            <div class="content-grid">
+                <!-- Hero Section -->
+                <section class="hero">
+                    <div class="hero-content">
+                        <h2>Master the Markets with NICKFX</h2>
+                        <p>Join our elite trading academy and gain access to proprietary AI-driven strategies that institutional traders use.</p>
+                        <button class="cta-button glow-on-hover">Start Free Trial <i class="fas fa-arrow-right"></i></button>
+                    </div>
+                    <div class="hero-image">
+                        <div class="glowing-chart">
+                            <div class="chart-inner"></div>
+                        </div>
+                    </div>
+                </section>
+                
+                <!-- Trading Courses Section -->
+                <section class="courses" id="courses">
+                    <div class="section-header">
+                        <h2 class="section-title">NICKFX Trading Courses</h2>
+                        <p class="section-subtitle">Structured learning paths for all skill levels</p>
+                    </div>
+
+                    <div class="course-filters">
+                        <button class="filter-btn active" data-filter="all">All Courses</button>
+                        <button class="filter-btn" data-filter="beginner">Beginner</button>
+                        <button class="filter-btn" data-filter="intermediate">Intermediate</button>
+                        <button class="filter-btn" data-filter="advanced">Advanced</button>
+                    </div>
+
+                    <div class="course-grid">
+                        <!-- Course 1 -->
+                        <div class="course-card" data-level="beginner">
+                            <div class="course-badge beginner">Beginner</div>
+                            <div class="course-image" style="background-image: url('https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');">
+                                <div class="course-overlay"></div>
+                                <div class="course-tag">Most Popular</div>
+                            </div>
+                            <div class="course-content">
+                                <h3>Forex Foundations</h3>
+                                <p class="course-description">Master the basics of currency trading with market mechanics and simple strategies.</p>
+                                
+                                <div class="course-stats">
+                                    <span><i class="fas fa-user-graduate"></i> 1,240+ students</span>
+                                    <span><i class="fas fa-star"></i> 4.9/5.0</span>
+                                </div>
+                                
+                                <div class="course-meta">
+                                    <span><i class="fas fa-clock"></i> 4 Weeks</span>
+                                    <span><i class="fas fa-video"></i> 20 Lessons</span>
+                                    <span><i class="fas fa-certificate"></i> Certificate</span>
+                                </div>
+                                
+                                <div class="course-price">
+                                    <span class="price">$297</span>
+                                    <span class="original-price">$497</span>
+                                    <button class="enroll-button glow-on-hover">
+                                        <i class="fas fa-shopping-cart"></i> Enroll Now
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Course 2 -->
+                        <div class="course-card" data-level="intermediate">
+                            <div class="course-badge intermediate">Intermediate</div>
+                            <div class="course-image" style="background-image: url('https://images.unsplash.com/photo-1621761191319-c6fb62004040?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');">
+                                <div class="course-overlay"></div>
+                            </div>
+                            <div class="course-content">
+                                <h3>Price Action Mastery</h3>
+                                <p class="course-description">Read raw price movement like institutional traders without indicators.</p>
+                                
+                                <div class="course-stats">
+                                    <span><i class="fas fa-user-graduate"></i> 890+ students</span>
+                                    <span><i class="fas fa-star"></i> 4.8/5.0</span>
+                                </div>
+                                
+                                <div class="course-meta">
+                                    <span><i class="fas fa-clock"></i> 6 Weeks</span>
+                                    <span><i class="fas fa-video"></i> 30 Lessons</span>
+                                    <span><i class="fas fa-certificate"></i> Certificate</span>
+                                </div>
+                                
+                                <div class="course-price">
+                                    <span class="price">$597</span>
+                                    <button class="enroll-button glow-on-hover">
+                                        <i class="fas fa-shopping-cart"></i> Enroll Now
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Course 3 -->
+                        <div class="course-card" data-level="advanced">
+                            <div class="course-badge advanced">Advanced</div>
+                            <div class="course-image" style="background-image: url('https://images.unsplash.com/photo-1642790554905-2c73f7d5b0ca?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');">
+                                <div class="course-overlay"></div>
+                                <div class="course-tag">New</div>
+                            </div>
+                            <div class="course-content">
+                                <h3>Algorithmic Trading</h3>
+                                <p class="course-description">Build trading bots using Python and MQL4 with backtesting.</p>
+                                
+                                <div class="course-stats">
+                                    <span><i class="fas fa-user-graduate"></i> 420+ students</span>
+                                    <span><i class="fas fa-star"></i> 4.7/5.0</span>
+                                </div>
+                                
+                                <div class="course-meta">
+                                    <span><i class="fas fa-clock"></i> 8 Weeks</span>
+                                    <span><i class="fas fa-video"></i> 40 Lessons</span>
+                                    <span><i class="fas fa-laptop-code"></i> Practical</span>
+                                </div>
+                                
+                                <div class="course-price">
+                                    <span class="price">$997</span>
+                                    <button class="enroll-button glow-on-hover">
+                                        <i class="fas fa-shopping-cart"></i> Enroll Now
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Course 4 -->
+                        <div class="course-card" data-level="advanced">
+                            <div class="course-badge pro">Pro</div>
+                            <div class="course-image" style="background-image: url('https://images.unsplash.com/photo-1620288627223-53302f4e8c74?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');">
+                                <div class="course-overlay"></div>
+                            </div>
+                            <div class="course-content">
+                                <h3>Institutional Gold</h3>
+                                <p class="course-description">Hedge fund techniques for trading XAU/USD (Gold).</p>
+                                
+                                <div class="course-stats">
+                                    <span><i class="fas fa-user-graduate"></i> 310+ students</span>
+                                    <span><i class="fas fa-star"></i> 4.9/5.0</span>
+                                </div>
+                                
+                                <div class="course-meta">
+                                    <span><i class="fas fa-clock"></i> 10 Weeks</span>
+                                    <span><i class="fas fa-video"></i> 50 Lessons</span>
+                                    <span><i class="fas fa-chart-line"></i> Live Analysis</span>
+                                </div>
+                                
+                                <div class="course-price">
+                                    <span class="price">$1,497</span>
+                                    <button class="enroll-button glow-on-hover">
+                                        <i class="fas fa-shopping-cart"></i> Enroll Now
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="course-bundles">
+                        <h3>Course Bundles</h3>
+                        <div class="bundles-grid">
+                            <div class="bundle-card">
+                                <h4>Trader's Journey</h4>
+                                <p>Forex + Price Action</p>
+                                <div class="bundle-price">
+                                    <span class="original-price">$894</span>
+                                    <span class="price">$697</span>
+                                </div>
+                                <button class="bundle-button">Save 22%</button>
+                            </div>
+                            
+                            <div class="bundle-card">
+                                <h4>Quant Package</h4>
+                                <p>Algo + Crypto</p>
+                                <div class="bundle-price">
+                                    <span class="original-price">$1,794</span>
+                                    <span class="price">$1,297</span>
+                                </div>
+                                <button class="bundle-button">Save 28%</button>
+                            </div>
+                            
+                            <div class="bundle-card highlight">
+                                <h4>Elite Mastery</h4>
+                                <p>All 5 Courses</p>
+                                <div class="bundle-price">
+                                    <span class="original-price">$4,185</span>
+                                    <span class="price">$2,997</span>
+                                </div>
+                                <button class="bundle-button">Save 40%</button>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Features Section -->
+                <section class="features">
+                    <h2 class="section-title">Why Choose NICKFX?</h2>
+                    <div class="feature-grid">
+                        <div class="feature-card">
+                            <div class="feature-icon">
+                                <i class="fas fa-brain"></i>
+                            </div>
+                            <h3>AI Trade Signals</h3>
+                            <p>Our neural networks analyze 10,000+ data points to generate high-probability trades.</p>
+                        </div>
+                        <div class="feature-card">
+                            <div class="feature-icon">
+                                <i class="fas fa-chart-network"></i>
+                            </div>
+                            <h3>Quantum Analytics</h3>
+                            <p>Proprietary algorithms detect market patterns invisible to traditional analysis.</p>
+                        </div>
+                        <div class="feature-card">
+                            <div class="feature-icon">
+                                <i class="fas fa-user-shield"></i>
+                            </div>
+                            <h3>Risk Management</h3>
+                            <p>Learn institutional-grade risk control techniques to protect your capital.</p>
+                        </div>
+                        <div class="feature-card">
+                            <div class="feature-icon">
+                                <i class="fas fa-hologram"></i>
+                            </div>
+                            <h3>3D Charting</h3>
+                            <p>Visualize market structure in revolutionary 3D holographic displays.</p>
+                        </div>
+                    </div>
+                </section>
+                
+                <!-- Testimonials -->
+                <section class="testimonials">
+                    <h2 class="section-title">Trader Success Stories</h2>
+                    <div class="testimonial-slider">
+                        <div class="testimonial-card">
+                            <div class="testimonial-content">
+                                <p>"NICKFX transformed my trading. I went from inconsistent results to 75% win rate in just 3 months!"</p>
+                            </div>
+                            <div class="testimonial-author">
+                                <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Sarah J.">
+                                <div>
+                                    <h4>Sarah J.</h4>
+                                    <span>Forex Trader</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="testimonial-card">
+                            <div class="testimonial-content">
+                                <p>"The algorithmic trading course paid for itself in 2 weeks. The edge is real!"</p>
+                            </div>
+                            <div class="testimonial-author">
+                                <img src="https://randomuser.me/api/portraits/men/75.jpg" alt="Michael T.">
+                                <div>
+                                    <h4>Michael T.</h4>
+                                    <span>Fund Manager</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="testimonial-card">
+                            <div class="testimonial-content">
+                                <p>"I've tried many systems, but NICKFX's AI signals are consistently profitable."</p>
+                            </div>
+                            <div class="testimonial-author">
+                                <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Priya K.">
+                                <div>
+                                    <h4>Priya K.</h4>
+                                    <span>Crypto Trader</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            
+            <footer class="footer">
+                <div class="footer-content">
+                    <div class="footer-logo">
+                        <span class="logo-icon">N</span>
+                        <span class="logo-text">NICKFX</span>
+                    </div>
+                    <div class="footer-links">
+                        <div class="link-group">
+                            <h4>Education</h4>
+                            <a href="#">Courses</a>
+                            <a href="#">Webinars</a>
+                            <a href="#">Mentorship</a>
+                        </div>
+                        <div class="link-group">
+                            <h4>Company</h4>
+                            <a href="#">About</a>
+                            <a href="#">Team</a>
+                            <a href="#">Results</a>
+                        </div>
+                        <div class="link-group">
+                            <h4>Legal</h4>
+                            <a href="#">Terms</a>
+                            <a href="#">Privacy</a>
+                            <a href="#">Risk Disclosure</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p>&copy; 2023 NICKFX Trading Academy. All rights reserved.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-telegram"></i></a>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
